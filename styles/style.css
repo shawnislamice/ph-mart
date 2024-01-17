@@ -1,0 +1,80 @@
+/* Shared styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;   
+    /* 1 rem = 10px */
+}
+h1,h3{
+    color: #606d5f;
+}
+p,li,a,button{
+    color: #888888;
+}
+p{
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: normal;
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+button{
+    padding: 1rem 3rem;
+    border-radius: 2rem ;
+    border: none;
+    outline: none;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-style: 2rem;
+}
+/* Header styles */
+header{
+    padding: 0 20rem;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 12rem;
+    align-items: center;
+}
+header nav .logo h1{
+    font-size: 3rem;
+}
+header nav .menu{
+    display: flex;
+    
+}
+header nav .menu a{
+    margin-left: 4rem;
+}
+header nav .menu a li{
+    font-size: 2rem;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    transition: all 0.2s;
+}
+header nav .menu a li:hover{
+    color: #4b709e;
+}
