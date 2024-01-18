@@ -78,3 +78,141 @@
     }
     /* Footer styles ends here */
 }
+/* Tablets */
+@media screen and (min-width:577px) and (max-width:900px){
+    /* Header nav styles starts here */
+    header, .hero-section,.products-section{
+        padding: 0 5rem;
+
+    }
+    .hero-section,.products-section{
+        margin-bottom: 10rem;
+    }
+    header nav .logo h1{
+        font-size: 3rem;
+    }
+    header nav .menu a{
+        margin-left: 2rem;
+    }
+    header nav .menu a li{
+        font-size: 2rem;
+    }
+    /* Header nav styles ends here */
+    /* Hero section styles starts here */
+    .hero-section{
+        flex-direction: column;
+        height: 80vh;
+        
+    }
+    .hero-section .hero-content{
+        order: 2;
+        width: 100%;
+    }
+    .hero-section .hero-content h1{
+        font-size: 4rem;
+        width: 100%;
+        line-height: 6rem;
+        margin-bottom: 2rem;
+
+    }
+    .hero-section .hero-content p{
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+    .hero-section .hero-img{
+        order: 1;
+        width: 100%;
+    }
+    .hero-section .hero-img img{
+        width: 100%;
+    }
+    /* Hero section styles ends here */
+    /* Feature products styles starts here */
+    .products-section h1{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        line-height: 6rem;
+    }
+    .products-section .products{
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* Feature products styles ends here */
+    /* Why we are the best styles starts here */
+    .why-we-are-the-best{
+        padding: 1rem 2rem;
+    }
+    .message-cards{
+        flex-wrap: wrap;
+        gap: 10rem;
+        justify-content: center;
+        margin-top: 5rem;
+        height: 100rem;
+        
+    }
+    .why-we-are-the-best h1{
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+    /* Why we are the best styles ends here */
+    /* Footer styles starts here */
+    footer p{
+        font-size: 1.5rem;
+    }
+    /* Footer styles ends here */
+}
+/* Laptop */
+@media screen and (min-width:577px) and (max-width:900px){
+    /* Header nav styles starts here */
+    header, .hero-section,.products-section{
+        padding: 0 10rem;
+
+    }
+    .hero-section,.products-section{
+        margin-bottom: 10rem;
+    }
+    header nav .logo h1{
+        font-size: 3rem;
+    }
+    .hero-section .hero-content p{
+        width: 35rem;
+    }
+    .hero-section .hero-content h1{
+        width: 35rem;
+        font-size: 4rem;
+    }
+    /* Header nav styles ends here */
+
+    /* Feature products styles starts here */
+    
+    .products-section .products{
+        grid-template-columns: repeat(3,1fr);
+    }
+    /* Feature products styles ends here */
+    /* Why we are the best styles starts here */
+    .why-we-are-the-best{
+        padding: 1rem 2rem;
+    }
+    .message-cards{
+        flex-wrap: wrap;
+        gap: 10rem;
+        justify-content: center;
+        margin-top: 5rem;
+        height: 100rem;
+        
+    }
+    .why-we-are-the-best h1{
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+    /* Why we are the best styles ends here */
+    /* Footer styles starts here */
+    footer p{
+        font-size: 1.5rem;
+    }
+    /* Footer styles ends here */
+}
