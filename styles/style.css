@@ -11,39 +11,51 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-html{
+
+html {
     scroll-behavior: smooth;
-    font-size: 62.5%;   
+    font-size: 62.5%;
     /* 1 rem = 10px */
 }
-h1,h3{
+
+h1,
+h3 {
     color: #606d5f;
 }
-h3{
+
+h3 {
     font-weight: 750;
     font-size: 2.2rem;
     text-transform: capitalize;
 }
-p,li,a,button{
+
+p,
+li,
+a,
+button {
     color: #888888;
 }
-p{
+
+p {
     font-size: 1.8rem;
     line-height: 150%;
     font-style: normal;
     font-weight: normal;
 
 }
-a{
+
+a {
     text-decoration: none;
     cursor: pointer;
 }
-li{
+
+li {
     list-style: none;
 }
-button{
+
+button {
     padding: 1rem 3rem;
-    border-radius: 2rem ;
+    border-radius: 2rem;
     border: none;
     outline: none;
     line-height: 3.6rem;
@@ -53,41 +65,49 @@ button{
     font-weight: normal;
     font-size: 2rem;
 }
+
 /* Header styles */
 /* Nav styles starts here */
-header{
+header {
     padding: 0 20rem;
     width: 100%;
 }
-header nav{
+
+header nav {
     display: flex;
     justify-content: space-between;
     height: 12rem;
     align-items: center;
 }
-header nav .logo h1{
+
+header nav .logo h1 {
     font-size: 3rem;
 }
-header nav .menu{
+
+header nav .menu {
     display: flex;
-    
+
 }
-header nav .menu a{
+
+header nav .menu a {
     margin-left: 4rem;
 }
-header nav .menu a li{
+
+header nav .menu a li {
     font-size: 2rem;
     line-height: 3.6rem;
     text-transform: capitalize;
     transition: all 0.2s;
 }
-header nav .menu a li:hover{
+
+header nav .menu a li:hover {
     color: #4b709e;
 }
+
 /* Nav styles ends here */
 
 /* Hero-section styles starts here */
-.hero-section{
+.hero-section {
     padding: 0 20rem;
     width: 100%;
     height: 100%;
@@ -97,7 +117,7 @@ header nav .menu a li:hover{
     margin-bottom: 5rem;
 }
 
-.hero-section .hero-content{
+.hero-section .hero-content {
     width: 50%;
     height: 80vh;
     display: flex;
@@ -105,38 +125,45 @@ header nav .menu a li:hover{
     justify-content: center;
     align-items: flex-start;
 }
-.hero-section .hero-content h1{
+
+.hero-section .hero-content h1 {
     width: 40rem;
     font-size: 5rem;
     line-height: 5rem;
     margin-bottom: 4rem;
     text-transform: capitalize;
 }
-.hero-content .hero-content p{
+
+.hero-content .hero-content p {
     width: 45rem;
     margin-bottom: 3rem;
 }
-.shop-now-btn{
+
+.shop-now-btn {
     margin: 15px;
 }
-.hero-section .hero-img{
+
+.hero-section .hero-img {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.hero-section .hero-img img{
+
+.hero-section .hero-img img {
     width: 100%;
 }
+
 /* Hero-section styles ends here */
 /* Feature products styles starts here */
-.products-section{
+.products-section {
     padding: 0 20rem;
     width: 100%;
     height: 100%;
     padding-bottom: 20rem;
 }
-.products-section h1{
+
+.products-section h1 {
     font-size: 5rem;
     line-height: 5rem;
     margin-top: 4rem;
@@ -144,13 +171,15 @@ header nav .menu a li:hover{
     text-transform: capitalize;
     margin-bottom: 4rem;
 }
-.products-section .products{
+
+.products-section .products {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     justify-items: center;
 }
-.products-section .products .product-card{
+
+.products-section .products .product-card {
     width: 25rem;
     height: 25rem;
     background-color: #efefefef;
@@ -162,11 +191,13 @@ header nav .menu a li:hover{
     padding: 2rem;
     margin-bottom: 2rem;
 }
-.product-card img{
+
+.product-card img {
     width: 80%;
     border-radius: 50%;
 }
-.buy-btn{
+
+.buy-btn {
     background-color: white;
     border: 2px solid #efefefef;
     padding: 1rem 2rem;
@@ -176,8 +207,63 @@ header nav .menu a li:hover{
     margin-top: 1rem;
     transition: all 0.5s;
 }
-.buy-btn:hover{
+
+.buy-btn:hover {
     transform: scale(0.9);
-    
+
 }
+
 /* Feature products styles ends here */
+/* Why we are the best section starts here */
+.why-we-are-the-best{
+    padding: 0 20rem;
+    margin-bottom: 10rem;
+}
+.why-we-are-the-best h1{
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-top: 4rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+
+}
+.message-cards{
+    padding: 10rem 0;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.message-card{
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.message-card p{
+    text-align: center;
+}
+.message-card img{
+    width: 10rem;
+    height: 10rem;
+
+}
+
+/* Why we are the best section ends here */
+/* Footer section styles starts here */
+footer{
+    margin-top: 5rem;
+    font-size: 1rem;
+    height: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefefef;
+    padding: 3rem;
+}
+/* Footer section styles ends here */
